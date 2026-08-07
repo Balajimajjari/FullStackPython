@@ -11,4 +11,8 @@ else:
 name= input('Enter your name: ')
 print('Hello ' + name)
 
-
+n = 20
+if n > 18:
+    print("eligible")
+else:
+    print("not eligible")
