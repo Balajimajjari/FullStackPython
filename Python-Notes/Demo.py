@@ -8,3 +8,7 @@ if(n % 2 == 0):
 else:
     print('odd')
 
+name= input('Enter your name: ')
+print('Hello ' + name)
+
+
