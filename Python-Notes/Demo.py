@@ -1,18 +1,7 @@
-print('hello world')
-print('balaji')
-
-n = int(int(input('Enter a number: ')))
-
-if(n % 2 == 0):
-    print('even')
-else:
-    print('odd')
-
-name= input('Enter your name: ')
-print('Hello ' + name)
-
-n = 20
-if n > 18:
-    print("eligible")
-else:
-    print("not eligible")
+n=int(input("Enter a number :"))
+count=0
+for i in range(1,n+1):
+    if n%2==0:
+        print("even")
+        count=count+1
+print(count)        
