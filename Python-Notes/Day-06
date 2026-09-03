@@ -1,0 +1,112 @@
+Topics: input nd output formatting, introduction to github and git
+
+Input:
+
+Input is the data entered by the user during program execution using the input() function
+
+Example:
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+print(name)
+print(age)
+
+Output:
+
+Output is the information displayed to the user using the print() function
+
+Example:
+name = "Alice"
+print("Hello", name)
+
+Output Formatting:
+
+Output formatting makes the displayed output more readable.
+
+Using f-strings (Recommended):
+name = "Alice"
+age = 20
+
+print(f"Name: {name}, Age: {age}")
+
+Using format() Method:
+name = "Alice"
+age = 20
+
+print("Name: {}, Age: {}".format(name, age))
+
+Formatting Numbers:
+pi = 3.14159265
+
+print(f"{pi:.2f}")      # 3.14
+print(f"{1000:,}")      # 1,000
+
+Introduction to Git:
+
+Git is a distributed version control system used to track changes in files and source code. It helps developers collaborate, maintain version history, and restore previous versions if needed.
+
+Features of Git:
+
+Tracks changes in files.
+Allows multiple developers to work together.
+Maintains version history.
+Supports branching and merging.
+Enables rollback to previous versions.
+
+Common Git Commands:
+
+Command  	Purpose
+
+git init	Initialize a new Git repository.
+git status	Show the current repository status.
+git add <file>	Stage a file for commit.
+git add .	Stage all changed files.
+git commit -m "message"	Save staged changes with a message.
+git log	View commit history.
+git branch	List branches.
+git checkout <branch>	Switch to another branch.
+git merge <branch>	Merge another branch into the current branch.
+
+3. Introduction to GitHub:
+
+GitHub is a cloud-based platform that hosts Git repositories. It allows developers to store, share, and collaborate on projects online using Git.
+
+Features of GitHub:
+
+Online hosting for Git repositories.
+Team collaboration.
+Pull requests for code review.
+Issue tracking.
+Project management tools.
+Backup and remote storage.
+
+Difference Between Git and GitHub:
+
+Git	GitHub:
+
+A version control system.	A cloud platform for hosting Git repositories.
+Works locally on your computer.	Works online over the internet.
+Tracks code changes.	Provides collaboration and repository hosting.
+Can be used without GitHub.	Uses Git to manage repositories.
+
+Basic GitHub Workflow:
+
+Create a GitHub account.
+Create a new repository.
+
+Clone the repository to your computer:
+
+git clone <repository-url>
+Make changes to the project.
+
+Stage the changes:
+
+git add .
+
+Commit the changes:
+
+git commit -m "Added new feature"
+
+Push the changes to GitHub:
+
+git push origin main
